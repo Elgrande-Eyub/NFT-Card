@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Container {
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.Card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Container {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.Container * {
+    margin: 0px 0px 20px 0;
+}
+
+.Container .main {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.text {
+    color: #8BACD9;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(222, 222, 222, 0.248), rgba(0, 0, 0, 0));
+}
+
+.price {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.avatar {
+    width: 40px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.avatrarD {
+    display: flex;
+    align-items: center;
+    font-size: .9em;
+    color: #8BACD9;
+    margin-bottom: 0;
+}
+
+.clock {
+    display: flex;
+    margin: 0;
+    color: #8BACD9;
+    gap: 2px;
+}
+
+.clock {
+    display: flex;
+    margin: 0;
+    color: #8BACD9;
+    gap: 4px;
+}
+
+.clock svg {
+    margin-top: 1px;
+}
